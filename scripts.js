@@ -10,3 +10,7 @@ incrementer.onclick = () => {
 decrement.onclick = () => {
     number.value =+ number.value - 1;
 };
+
+reset.onclick =()=>{
+    number.value = 0;
+}
